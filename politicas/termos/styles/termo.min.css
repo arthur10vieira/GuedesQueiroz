@@ -83,3 +83,9 @@ main {
     padding-bottom: 5rem;
     color: var(--cor-azul-escura);
 }
+
+main ol {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
