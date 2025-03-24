@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/styles/global.min.css">
+        <link rel="icon" href="./src/assets/icons/favicon.ico">
+        <title>Guedes & Queiroz - Soluções Imobiliárias</title>
+        <script src="./src/scripts/jquery.min.js" type="text/javascript"></script>
+        <script src="./src/scripts/index.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <button id="Whatsapp" name="Whatsapp">
+            <img src="./src/assets/imgs/Whatsapp.png" alt="Whatsapp">
+            Fale conosco no Whatsapp
+        </button>
+        <header>
+            <a href="./index.html">
+                <img src="./src/assets/imgs/logotipo.png" title="Guedes e Queiroz" alt="Guedes e Queiroz"/>
+            </a>
+            <nav>
+                <ul>
+                    <a href="./index.html">Home</a>
+                    <a href="#hero">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#imoveis">Imóveis</a>
+                    <a href="#contato">Contato</a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div>
+                    <img src="./src/assets/imgs/logotipo.png" alt="Guedes & Queiroz"/>
+                    <h1>Transformando Sonhos em Realidade, Seu Lar Perfeito Está Aqui</h1>
+                    <p>Na Imobiliária Guedes & Queiroz, acreditamos que encontrar o lar dos seus sonhos deve ser uma experiência sem estresse, com confiança e suporte total. Com anos de experiência no mercado imobiliário, oferecemos uma curadoria de imóveis exclusivos que atendem às suas necessidades e desejos, proporcionando um atendimento personalizado a cada cliente.</p>
+                    <p>Nossa missão é mais do que vender imóveis, é ajudar você a conquistar um novo capítulo na sua vida, oferecendo soluções práticas e acessíveis para tornar o processo de compra ou aluguel rápido e transparente. A confiança e a satisfação dos nossos clientes são a base do nosso trabalho, e nos orgulhamos de ser uma referência em qualidade e comprometimento.</p>
+                    <p>Explore nossa ampla variedade de opções, desde apartamentos modernos até casas modernas, todas selecionadas com cuidado para garantir que você encontre o imóvel ideal. Entre em contato com a Guedes & Queiroz e deixe-nos guiá-lo em cada etapa do caminho até a realização do seu sonho!</p>
+                </div>
+            </section>
+            <section id="servicos">
+                <h2>Nossos Servicos Imobiliários</h2>
+                <div id="cards">
+                    <div id="card">
+                        <h3>Compra e Venda de Imóveis</h3>
+                        <p><strong>Intermediação de Compra e Venda:</strong></p>
+                        <p>Auxílio na negociação entre compradores e vendedores.</p>
+                        <p><strong>Avaliação de Imóveis:</strong></p>
+                        <p>Definição do valor de mercado com base em critérios técnicos.</p>
+                        <p><strong>Assessoria Jurídica:</strong></p>
+                        <p>Orientação sobre contratos, documentação e regularização.</p>
+                        <p><strong>Fotografia e Tour Virtual:</strong></p>
+                        <p>Imagens e vídeos profissionais e visitas 360° para divulgação.</p>
+                        <p><strong>Captação de Imóveis:</strong></p>
+                        <p>Busca de propriedades alinhadas ao perfil do cliente.</p>
+                    </div>
+                    <div id="card">
+                        <h3>Locação e Administração de Imóveis</h3>
+                        <p><strong>Gestão de Aluguéis:</strong></p>
+                        <p>Administração completa de contratos e pagamentos.</p>
+                        <p><strong>Vistoria de Imóveis:</strong></p>
+                        <p>Inspeção detalhada antes e depois da locação.</p>
+                        <p><strong>Análise de Crédito de Inquilinos:</strong></p>
+                        <p>Garantia de segurança para locadores.</p>
+                        <p><strong>Cobrança e Inadimplência:</strong></p>
+                        <p>Gerenciamento financeiro e jurídico de atrasos.</p>
+                        <p><strong>Seguro Fiança e Garantias Locatícias:</strong></p>
+                        <p>Alternativas para reduzir riscos.</p>
+                    </div>
+                    <div id="card">
+                        <h3>Consultoria e Investimentos Imobiliários</h3>
+                        <p><strong>Assessoria para Investidores:</strong></p>
+                        <p>Identificação de oportunidades lucrativas.</p>
+                        <p><strong>Estudos de Viabilidade:</strong></p>
+                        <p>Análises de valorização e rentabilidade.</p>
+                        <p><strong>Regularização de Imóveis:</strong></p>
+                        <p>Resolução de pendências documentais.</p>
+                        <p><strong>Consultoria para Incorporações e Loteamentos:</strong></p>
+                        <p>Apoio em projetos imobiliários.</p>
+                    </div>
+                    <div id="card">
+                        <h3>Serviços Personalizados e Tecnologia</h3>
+                        <p><strong>Plataforma Online:</strong></p>
+                        <p>Busca de imóveis e acompanhamento digital.</p>
+                        <p><strong>Marketing Imobiliário:</strong></p>
+                        <p>Divulgação em redes sociais e portais especializados.</p>
+                        <p><strong>Atendimento Personalizado:</strong></p>
+                        <p>Suporte diferenciado para cada cliente.</p>
+                        <p><strong>Financiamento e Consórcio:</strong></p>
+                        <p>Facilitação de crédito imobiliário.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="imoveis">
+                <h2>Lista de Imóveis Disponíveis</h2>
+                <form id="busca">
+                    <label for="C000">cidade:</label>
+                    <input id="C000" name="C000" type="text" placeholder="Cidade..."/>
+                    <label for="C001">Bairro:</label>
+                    <input id="C001" name="C001" type="text" placeholder="Bairro..."/>
+                    <label for="C002">Tipo de Imóvel:</label>
+                    <Select id="C002" name="C002">
+                        <option value="0">Selecione o tipo</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Apartamento">Apartamento</option>
+                        <option value="Lote">Lote</option>
+                    </Select>
+                    <label for="C003">Padrão de Imóvel:</label>
+                    <Select id="C003" name="C003">
+                        <option value="0">Selecione o padrão</option>
+                        <option value="Alto">Alto Padrão</option>
+                        <option value="Médio">Médio Padrão</option>
+                        <option value="MCMV">MCMV</option>
+                    </Select>
+                    <button type="button">Pesquisar</button>
+                </form>
+                <div id="lista">
+
+                </div>
+            </section>
+            <section id="contato">
+                <form id="F000" action="">
+                    <h3>Entre em contato conosco</h3>
+                    <label for="N000">Nome completo</label>
+                    <input type="text" id="N000" name="N000" placeholder="Nome completo...">
+                    <label for="N001">E-mail</label>
+                    <input type="text" id="N001" name="N001" placeholder="E-mail...">
+                    <label for="N002">Whatsapp</label>
+                    <input type="text" id="N002" name="N002" placeholder="Whatsapp...">
+                    <textarea placeholder="Mensagem..." id="N003" name="N003" rows="10" cols="10"></textarea>
+                    <button id="B000" name="B000" type="button">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <div>
+                    <ul>
+                        <a href="./politicas/privacidade" title="politicas de Privacidade">Politicas de Privacidade</a>
+                        <a href="./politicas/termos/index.html" title="Termos e Condições">Termos e Condições</a>
+                    </ul>
+                </div>
+            </div>
+            <p>Guedes & Queiroz ® Direitos reservados 2025</p>
+        </footer>
+    </body>
+</html>
