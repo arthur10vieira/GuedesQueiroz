@@ -216,6 +216,15 @@ section[id=contato] div{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    color: var(--cor-fundo);
+}
+
+section[id=contato] div h2 {
+    font-weight: 800;
+}
+
+section[id=contato] div h3 {
+    font-weight: 700;
 }
 
 section[id=contato] form {
