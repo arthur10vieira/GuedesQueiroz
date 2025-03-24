@@ -219,6 +219,7 @@ section[id=contato] form {
     background-color: var(--cor-azul-alternativa);
     color: var(--cor-fundo);
     border-radius: 2rem;
+    width: 50%;
 }
 
 section[id=contato] form h3 {
