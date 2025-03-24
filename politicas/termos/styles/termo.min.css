@@ -90,9 +90,9 @@ main ol {
     gap: 1rem;
 }
 
-main ol + ol {
+main ol  ol {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
