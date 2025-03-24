@@ -239,6 +239,10 @@ section[id=contato] form input[type=text] {
     font-size: 1rem;
 }
 
+section[id=contato] form input[type=text]::placeholder {
+    color: var(--cor-azul-alternativa);
+}
+
 
 section[id=contato] form textarea {
     padding: 1rem;
@@ -246,6 +250,10 @@ section[id=contato] form textarea {
     background-color: var(--cor-azul-escura);
     color: var(--cor-fundo);
     font-size: 1rem;
+}
+
+section[id=contato] form textarea::placeholder {
+    color: var(--cor-azul-alternativa);
 }
 
 section[id=contato] form button {
