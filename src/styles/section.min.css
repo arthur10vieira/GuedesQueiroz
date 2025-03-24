@@ -208,6 +208,7 @@ section[id=contato] {
     justify-content: end;
     background-color: var(--cor-azul-escura);
     padding: 5rem;
+    gap: 2rem;
 }
 
 section[id=contato] div{
