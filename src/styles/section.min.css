@@ -217,6 +217,7 @@ section[id=contato] div{
     align-items: center;
     gap: 2rem;
     color: var(--cor-fundo);
+    width: 45%;
 }
 
 section[id=contato] div h2 {
