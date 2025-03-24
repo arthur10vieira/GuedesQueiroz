@@ -210,6 +210,14 @@ section[id=contato] {
     padding: 5rem;
 }
 
+section[id=contato] div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
 section[id=contato] form {
     display: flex;
     flex-direction: column;
