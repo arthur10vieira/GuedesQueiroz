@@ -57,6 +57,7 @@ section[id=hero] form[id=contatosuperior] {
     padding: 1rem;
     box-sizing: border-box;
     border: solid 1px var(--cor-fundo);
+    gap: 1rem;
 }
 
 section[id=hero] form[id=contatosuperior] label {
@@ -71,7 +72,7 @@ section[id=hero] form[id=contatosuperior] input[type=tel] {
     border: solid 1px var(--cor-fundo);
     padding: 0.5rem;
     border-radius: .5rem;
-    width: 80%;
+    width: 60%;
 }
 
 section[id=hero] form[id=contatosuperior] input[type=text]::placeholder, 
