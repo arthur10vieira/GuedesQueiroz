@@ -49,6 +49,7 @@ section[id=hero] form[id=contatosuperior] {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: var(--cor-fundo);
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
@@ -60,13 +61,19 @@ section[id=hero] form[id=contatosuperior] {
     gap: 1rem;
 }
 
-section[id=hero] form[id=contatosuperior] label {
+section[id=hero] form[id=contatosuperior] div {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+section[id=hero] form[id=contatosuperior] div label {
     font-weight: 700;
 }
 
-section[id=hero] form[id=contatosuperior] input[type=text], 
-section[id=hero] form[id=contatosuperior] input[type=email], 
-section[id=hero] form[id=contatosuperior] input[type=tel] {
+section[id=hero] form[id=contatosuperior] div input[type=text], 
+section[id=hero] form[id=contatosuperior] div input[type=email], 
+section[id=hero] form[id=contatosuperior] div input[type=tel] {
     font-weight: 600;
     background-color: transparent;
     border: solid 1px var(--cor-fundo);
@@ -75,36 +82,36 @@ section[id=hero] form[id=contatosuperior] input[type=tel] {
     width: 60%;
 }
 
-section[id=hero] form[id=contatosuperior] input[type=text]::placeholder, 
-section[id=hero] form[id=contatosuperior] input[type=email]::placeholder, 
-section[id=hero] form[id=contatosuperior] input[type=tel]::placeholder {
+section[id=hero] form[id=contatosuperior] div input[type=text]::placeholder, 
+section[id=hero] form[id=contatosuperior] div input[type=email]::placeholder, 
+section[id=hero] form[id=contatosuperior] div input[type=tel]::placeholder {
     color: var(--cor-fundo);
 }
 
-section[id=hero] form[id=contatosuperior] span {
+section[id=hero] form[id=contatosuperior] div span {
     display:  flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-section[id=hero] form[id=contatosuperior] span span {
+section[id=hero] form[id=contatosuperior] div span span {
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-section[id=hero] form[id=contatosuperior] span span input[type=radio] {
+section[id=hero] form[id=contatosuperior] div span span input[type=radio] {
     display: none;
 }
 
-section[id=hero] form[id=contatosuperior] span span input[type=radio] * label {
+section[id=hero] form[id=contatosuperior] div span span input[type=radio] * label {
     padding: 1rem;
     background-color: transparent;
     border: solid 1px var(--cor-fundo);
     border-radius: .5rem;
 }
 
-section[id=hero] form[id=contatosuperior] span span input[type=radio]:checked * label {
+section[id=hero] form[id=contatosuperior] div span span input[type=radio]:checked * label {
     background-color: var(--cor-fundo);
     color: var(--cor-azul-escura);
 }
