@@ -81,11 +81,26 @@ section[id=hero] form[id=contatosuperior] input[type=tel]::placeholder {
     color: var(--cor-fundo);
 }
 
-section[id=hero] form[id=contatosuperior] input[type=radio] + label {
+section[id=hero] form[id=contatosuperior] span {
+    display:  flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section[id=hero] form[id=contatosuperior] span span input[type=radio] {
+    display: none;
+}
+
+section[id=hero] form[id=contatosuperior] span span input[type=radio] + label {
     padding: 1rem;
     background-color: transparent;
     border: solid 1px var(--cor-fundo);
     border-radius: .5rem;
+}
+
+section[id=hero] form[id=contatosuperior] span span input[type=radio]:checked + label {
+    background-color: var(--cor-fundo);
+    color: var(--cor-azul-escura);
 }
 
 section[id=servicos] {
