@@ -50,6 +50,9 @@ section[id=hero] form[id=contatosuperior] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--cor-fundo);
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 section[id=servicos] {
