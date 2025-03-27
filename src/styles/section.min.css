@@ -56,6 +56,27 @@ section[id=hero] form[id=contatosuperior] {
     width: 45%;
     border-radius: 1rem;
     padding: 1rem;
+    box-sizing: border-box;
+    border: solid 1px var(--cor-fundo);
+}
+
+section[id=hero] form[id=contatosuperior] label {
+    font-weight: 700;
+}
+
+section[id=hero] form[id=contatosuperior] input[type=text], 
+section[id=hero] form[id=contatosuperior] input[type=email], 
+section[id=hero] form[id=contatosuperior] input[type=tel] {
+    font-weight: 600;
+    background-color: transparent;
+    border: solid 1px var(--cor-fundo);
+    padding: 0.5rem;
+    border-radius: .5rem;
+}
+
+section[id=hero] form[id=contatosuperior] input[type=radio] + label {
+    padding: 1rem;
+    
 }
 
 section[id=servicos] {
