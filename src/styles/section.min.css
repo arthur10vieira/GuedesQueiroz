@@ -161,8 +161,14 @@ section[id=imoveis] a {
     background-color: var(--cor-azul-escura);
     color: var(--cor-fundo);
     font-weight: 600;
-    padding: 1rem;
-    
+    padding: 1rem; 
+    border-radius: .5rem;
+    text-align: center;
+    width: 250px;
+}
+
+section[id=imoveis] a:hover {
+    background-color: var(--cor-azul-alternativa);
 }
 
 section[id=contato] {
