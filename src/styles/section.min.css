@@ -44,6 +44,12 @@ section[id=hero] div p {
     text-align: left;
 }
 
+section[id=hero] form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section[id=servicos] {
     display: flex;
     flex-direction: column;
