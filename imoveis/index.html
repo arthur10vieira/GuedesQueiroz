@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/imoveis.min.css">
+        <title>Guedes & Queiroz - lista de imóveis</title>
+        <script src="./scripts/jquery.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <header>
+            <a href="../index.html" title="Volta">Volta</a>
+            <div>
+                <img src="../src/assets/imgs/logotipo.png" alt="Guedes & Queiroz">
+                <h1>A Melhor Seleção de Imóveis de Patos de Minas Espera Por Você – Escolha o Seu!</h1>
+            </div>
+        </header>
+        <main>
+            <section id="busca">
+                <form action="">
+                    <div>
+                        <input id="C000" name="C000" type="text" placeholder="Cidade..."/>
+                        <input type="text" placeholder="Bairro..." id="C001" name="C001">
+                        <select name="C002" id="C002">
+                            <option value="0">Selecione o tipo de imóvel</option>
+                            <option value="Casa">Casa</option>
+                            <option value="Apartamento">Apartamento</option>
+                            <option value="Lote">Lote</option>
+                        </select>
+                        <select name="C003" id="C003">
+                            <option value="0">Selecione o padrão</option>
+                            <option value="Alto">Alto Padrão</option>
+                            <option value="Médio">Médio Padrão</option>
+                            <option value="MCMV">MCMV</option>
+                        </select>
+                        <input type="number" placeholder="preço mínimo" name="C004" id="C004">
+                        <input type="number" placeholder="preço máximo" name="C005" id="C005">
+                    </div>
+                    <button type="button" id="B000" name="B000">Consulta</button>
+                </form>
+            </section>
+            <section id="lista"></section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
