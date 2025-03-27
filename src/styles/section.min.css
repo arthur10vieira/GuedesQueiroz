@@ -49,7 +49,6 @@ section[id=hero] form[id=contatosuperior] {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     color: var(--cor-fundo);
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
@@ -72,11 +71,20 @@ section[id=hero] form[id=contatosuperior] input[type=tel] {
     border: solid 1px var(--cor-fundo);
     padding: 0.5rem;
     border-radius: .5rem;
+    width: 80%;
+}
+
+section[id=hero] form[id=contatosuperior] input[type=text]::placeholder, 
+section[id=hero] form[id=contatosuperior] input[type=email]::placeholder, 
+section[id=hero] form[id=contatosuperior] input[type=tel]::placeholder {
+    color: var(--cor-fundo);
 }
 
 section[id=hero] form[id=contatosuperior] input[type=radio] + label {
     padding: 1rem;
-    
+    background-color: transparent;
+    border: solid 1px var(--cor-fundo);
+    border-radius: .5rem;
 }
 
 section[id=servicos] {
