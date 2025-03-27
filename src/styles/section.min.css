@@ -91,14 +91,14 @@ section[id=hero] form[id=contatosuperior] span span input[type=radio] {
     display: none;
 }
 
-section[id=hero] form[id=contatosuperior] span span input[type=radio] + label {
+section[id=hero] form[id=contatosuperior] span span input[type=radio] * label {
     padding: 1rem;
     background-color: transparent;
     border: solid 1px var(--cor-fundo);
     border-radius: .5rem;
 }
 
-section[id=hero] form[id=contatosuperior] span span input[type=radio]:checked + label {
+section[id=hero] form[id=contatosuperior] span span input[type=radio]:checked * label {
     background-color: var(--cor-fundo);
     color: var(--cor-azul-escura);
 }
