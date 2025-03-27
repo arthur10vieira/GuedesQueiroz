@@ -92,7 +92,7 @@ section[id=imoveis] {
     flex-direction: column;
     gap: 2rem;
     padding: 2rem;
-    background-color: var(--cor-alternativo);
+    background-color: var(--cor-fundo);
 }
 
 section[id=imoveis] h2 {
@@ -100,51 +100,6 @@ section[id=imoveis] h2 {
     text-align: center;
     color: var(--cor-azul-escura);
     text-shadow: 1px 1px 20px var(--cor-azul-escura);
-}
-
-section[id=imoveis] form[id=busca] {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cor-azul-escura);
-    border-radius: 1rem;
-    padding: 2rem;
-    gap: 1rem;
-}
-
-section[id=imoveis] form[id=busca] label {
-    color: var(--cor-fundo);
-    font-weight: 700;
-}
-
-section[id=imoveis] form[id=busca] input[type=text] {
-    border: none;
-    padding: 0.5rem;
-    border-radius: .5rem;
-    color: var(--cor-azul-escura);
-    font-weight: 600;
-}
-
-section[id=imoveis] form[id=busca] select {
-    border: none;
-    padding: 0.5rem;
-    border-radius: .5rem;
-    color: var(--cor-azul-escura);
-    font-weight: 600;
-}
-
-section[id=imoveis] form[id=busca] button {
-    padding: .75rem;
-    background-color: var(--cor-azul-escura);
-    border: solid 2px var(--cor-fundo);
-    border-radius: 1rem;
-    font-weight: 600;
-    color: var(--cor-fundo);
-}
-
-section[id=imoveis] form[id=busca] button:hover {
-    background-color: var(--cor-azul-alternativa);
 }
 
 section[id=imoveis] div[id=lista] {
@@ -200,6 +155,14 @@ section[id=imoveis] div[id=lista] div[id=imovel] button {
 
 section[id=imoveis] div[id=lista] div[id=imovel] button:hover {
     color: var(--cor-azul-alternativa);
+}
+
+section[id=imoveis] a {
+    background-color: var(--cor-azul-escura);
+    color: var(--cor-fundo);
+    font-weight: 600;
+    padding: 1rem;
+    
 }
 
 section[id=contato] {
