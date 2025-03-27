@@ -96,7 +96,7 @@ section[id=hero] form[id=contatosuperior] span span input[type=radio] * label {
     background-color: transparent;
     border: solid 1px var(--cor-fundo);
     border-radius: .5rem;
-    width: auto;
+    min-width: 200px;
 }
 
 section[id=hero] form[id=contatosuperior] span span input[type=radio]:checked * label {
